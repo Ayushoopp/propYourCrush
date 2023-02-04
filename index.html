@@ -8,14 +8,13 @@
     <style>
         button{
   position: absolute;
-  top: 350px;
-  left: 400px;
+
 }
 
-button:hover{
+/* button:hover{
   left: 200px;
   top: 200x;
-}
+} */
 
 
     </style>
@@ -26,7 +25,7 @@ button:hover{
     
     <h2>Do You Love Me?</h2>
     <a id="yes">Yes</a>
-    <button id="no">No</button>
+    <button id="no" onclick="style.left='100px'">No</button>
 </center>
 </body>
 <script>
@@ -34,6 +33,7 @@ button:hover{
 
 sayes.addEventListener("click", function(){
     alert("Yay! You Love Me Let's Go To OYO");
+
 });
 
 
