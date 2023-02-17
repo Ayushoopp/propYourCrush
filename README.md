@@ -1,2 +1,1 @@
-# Weatherapi
-This is a weather api done by me .
+This is just a simple index.html which not allow the user to say no
